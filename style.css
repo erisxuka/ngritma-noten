@@ -1,0 +1,42 @@
+:root {
+    --white: white;
+}
+
+
+
+body {
+ background: linear-gradient(rgb(0.0, 0.0, 0.0, 0.7), rgb(0.0, 0.0, 0.0, 0.7)), url(th.jfif), no-repeat;
+ background-size: cover;
+ color: var(--white);
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    transform: translate(0px, -20px);
+}
+#options {
+  transform: translate(600px, 0);
+  width: 600px;
+ 
+}
+p {
+    transition: 0.3s scale ease;
+}
+p:hover {
+    scale: 1.2;
+}
+#mid-part {
+   transform: translate(0px, 70px);
+}
+hr {
+    width: 350;
+}
+button {
+    width: 130; height: 55;
+    transition: 0.4s width, height ease-in;
+    
+}
+button:hover {
+    width: 150;
+    height: 65;
+}
